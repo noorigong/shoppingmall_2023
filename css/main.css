@@ -1,0 +1,75 @@
+* {  
+  margin:0;  /* 브라우저 기본 마진 리셋 */
+  padding:0;  /* 브라우저 기본 패딩 리셋 */
+  box-sizing: border-box;  /* 테두리까지 포함해서 박스 모델 너비로 계산 */
+}
+#container {
+  width:100%;   /* 내용 전체의 너비 */
+  margin: 0px auto;  /* 내용을 화면 가운데 배치하도록 좌우 마진을 auto로 */
+}
+#logo {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+}
+#menu {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  float: left;
+}
+#header{
+  width:100%;  /* 부모 요소의 너비와 똑같게 */
+  height:170px;  /* 헤더의 높이 */
+  background-color: #6f9c75;
+  color:white;
+  text-align: right;
+  padding: 10px;
+}
+#contents {
+  width: 1200px;  /* 본문의 너비 */
+  height:1500px;   /* 본문의 높이 */
+  margin-left: 10%;
+}
+#lastlook {
+  width: 100px;
+  height: 350px;
+  background-color: gray;
+  position: fixed;
+  right: 30px;
+  top: 200px;
+  border-radius: 5px;
+  text-align: center;
+}
+#footer {
+  width:100%;  /* 부모 요소의 너비와 똑같게  */
+  height:100px;  /* 푸터의 높이 */
+  background-color:#888888;
+  clear:left;		/* 플로팅 해제 */
+  padding: 10px;
+}
+#box1 {   /* lastlook에 이용할 박스 */
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+#box2 {  /* 본문의 이미지 박스 */
+  margin: 15px;
+  box-sizing: border-box;
+  width: 240px;
+  height: 320px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+#box3 { /* 본문의 배너 박스 */
+  margin: 15px;
+  box-sizing: border-box;
+  width: 1170px;
+  height: 400px;
+  background-color: #b6d7b7;
+  border: 1px solid #6f9c75;
+  border-radius: 10px;
+}
